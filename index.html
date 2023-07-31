@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id='segment' class="segment">
+
+        </div>
+
+        <form class='form'>
+            <label for="blockLength">Block length:</label>
+            <input type="number" id="blockLength" name="blockLength" min="1" max="1000" required>
+
+            <label for="blockColor">Block Color:</label>
+            <input type="color" class="blockColor" id="blockColor" name="blockColor" value="#58c7fa">
+
+            <button id='button' class='btn' type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Save
+            </button>
+
+            <button id='button-merge' class='btn' type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Sort
+            </button>
+
+            <button id='button-clear' class='btn' type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Clear segment
+            </button>
+        </form>
+    </div>
+</body>
+</html>
